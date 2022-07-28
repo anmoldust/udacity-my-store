@@ -1,0 +1,12 @@
+.itemdata
+{
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   max-width: 100ch;
+}
+.images
+{
+   max-width: 100px;
+   max-height: 90px;
+}

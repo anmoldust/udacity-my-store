@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+      <ng-container *ngFor="let item of users">
+        <div class="card col-md-3">
+        <img src="{{item.image}}" alt="" class="images">
+        <h4 class="itemdata">{{item.data}}</h4>
+        <p class="itemdata">{{item.description}}</p>
+        <p >{{item.price}}</p>
+        <button class="btn btn-danger">cart</button>
+       </div>
+      </ng-container>
+    </div>
+  
+  </div>
